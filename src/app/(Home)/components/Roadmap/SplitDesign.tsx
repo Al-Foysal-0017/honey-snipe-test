@@ -110,7 +110,7 @@ const SplitDesign = () => {
             <h1 ref={bottom_h1_Ref} className={`${styles.main_h1} ${styles.bottom_h1}`}>ROADMAP</h1>
         </div>
     </div>
-    <div style={{marginBottom:'100vh'}} />
+    {/* <div style={{marginBottom:'100vh'}} /> */}
     {/* Notification Text in Bottom */}
     <Notification
           title="Liquidity" 
