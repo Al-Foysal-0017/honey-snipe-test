@@ -1,0 +1,149 @@
+.main{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    /* margin-top: 80px; */
+    color: var(--color-orange);
+    text-shadow: 0px 4px 1px rgba(0, 0, 0, 0.54);
+    text-align: center;
+
+
+    font-size: 4.5vw;
+    z-index: 1;
+    position: relative;
+}
+
+.subtitle{
+    color: var(--color-orange);
+    /* max-width: 980px; */
+    margin: 0 auto;
+    margin-top: 24px;
+    text-align: center;
+
+
+    font-size: 1.5vw;
+    z-index: 1;
+    position: relative;
+}
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    /* border: 2px solid red; */
+}
+.motionCard{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 370px;
+    height: 50vh;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(255, 247, 247, 0.00) 0%, #FFD27C 100%);
+}
+
+.cardIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.cardTitle{
+    margin-top: 7px;
+    color: var(--color-black);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    font-size: 1.5vw;
+
+
+}
+
+.cardDesc{
+    margin-top: 16px;
+    color: var(--color-black);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.68px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+    font-size: 1.2vw;
+}
+
+
+
+
+/* @media (max-width: 1180px) { */
+@media (max-width: 1124px) {
+    .main{
+        height: auto;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconAndTitle{
+        width: 40%;
+    }
+    .cardDesc{
+        width: 60%;
+        padding-left: 3rem;
+        text-align: end;
+    }
+}
+
+@media (max-width: 840px) {
+    .title{
+        font-size: 48px;
+    }
+    .subtitle{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 648px) {
+    .title{
+        font-size: 38px;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .iconAndTitle{
+        width: auto;
+    }
+    .cardDesc{
+        width: auto;
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}

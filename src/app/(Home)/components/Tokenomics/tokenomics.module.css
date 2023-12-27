@@ -1,0 +1,136 @@
+.tokenomics{
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 58px;
+    /* height: calc(100vh - 72px); */
+    height: 100vh;
+}
+
+.left{
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 32px;
+    color: var(--color-orange);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+
+
+    font-size: 4.5vw;
+    z-index: 1;
+    position: relative;
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 164.565%; /* 34.559px */
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+
+    font-size: 1.5vw;
+    z-index: 1;
+    position: relative;
+}
+
+.Holders{color: #397785;}
+.Liquidity{color: #BD4646;}
+.Airdrop{color: #D6BA23;}
+.Team{color: #FD8B12;}
+.Relaunch{color: #1EFFA0;}
+.Treasury{color: #329F20;}
+.TreasuryLocked{color: #DA8934;}
+
+
+.imgTitle{
+    margin-top: 12px;
+    color: var(--color-orange);
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 164.565%; /* 34.559px */
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+
+    /* font-size: 2vw;
+    z-index: 1;
+    position: relative; */
+}
+
+
+
+@media (max-width: 1124px) {
+    .tokenomics{
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+    .right{
+        margin-top: 58px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 1124px) {
+    .subtitle{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 840px) {
+    .subtitle{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 648px) {
+    .subtitle{
+        font-size: 15px;
+    }
+    .sheildImg{
+        width: 228px;
+        height: 273px;
+    }
+}
+
+@media (max-width: 524px) {
+    .subtitle{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 380px) {
+    .notificationDesc{
+        font-size: 12px;
+    }
+    .sheildImg{
+        width: 200px;
+        height: 245px;
+    }
+}

@@ -1,0 +1,48 @@
+.temporary{
+    min-height: 100vh;
+    color: #000;
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Lapsus Pro Bold', sans-serif;
+    padding-top: 100px;
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 1124px) {
+    .temporary{
+        font-size: 172px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .temporary{
+        font-size: 150px;
+    }
+}
+
+@media (max-width: 880px) {
+    .temporary{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .temporary{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 440px) {
+    .temporary{
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 380px) {
+    .temporary{
+        font-size: 48px;
+    }
+}
