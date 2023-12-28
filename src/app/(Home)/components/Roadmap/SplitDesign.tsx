@@ -41,12 +41,12 @@ const SplitDesign = () => {
          .to(bottomRef.current,{
             bottom: "-50%",
          },'a')
-        .to(top_h1_Ref.current,{
-            bottom: "-30%"
-         },'a')
-         .to(bottom_h1_Ref.current,{
-            bottom: "-30%"
-         },'a')
+        // .to(top_h1_Ref.current,{
+        //     bottom: "-30%"
+        //  },'a')
+        //  .to(bottom_h1_Ref.current,{
+        //     bottom: "-30%"
+        //  },'a')
         .to(center_h1_Ref.current,{
            top: "-30%"
         },'a')
